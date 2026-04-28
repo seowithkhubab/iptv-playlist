@@ -1,0 +1,32 @@
+name: Update IPTV Playlist
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build playlist
+        run: |
+          echo "#EXTM3U" > playlist.m3u
+          while read url; do
+            echo "" >> playlist.m3u
+            curl -L "$url" | grep -v "^#EXTM3U" >> playlist.m3u
+          done < sources.txt
+
+      - name: Commit playlist
+        run: |
+          git config user.name "iptv-bot"
+          git config user.email "iptv-bot@example.com"
+          git add playlist.m3u
+          git commit -m "Update playlist" || echo "No changes"
+          git push
