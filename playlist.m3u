@@ -1,0 +1,65 @@
+#EXTM3U
+
+# 🇵🇰 Pakistan - News & Sports
+
+#EXTINF:-1 tvg-name="PTV News",PTV News
+https://stream.ptv.com.pk/PTVNewsHD.m3u8
+
+#EXTINF:-1 tvg-name="PTV Sports",PTV Sports
+https://stream.ptv.com.pk/PTVSportsHD.m3u8
+
+#EXTINF:-1 tvg-name="Geo News",Geo News
+https://live.geo.tv/geonews/geo/playlist.m3u8
+
+# 🇵🇰 Pakistan - Entertainment / Drama
+
+#EXTINF:-1 tvg-name="PTV Home",PTV Home
+https://stream.ptv.com.pk/PTVHomeHD.m3u8
+
+#EXTINF:-1 tvg-name="Hum TV (Alt)",Hum TV
+https://cdn4.mjunoon.tv:8087/live/humtv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ARY Digital (Alt)",ARY Digital
+https://cdn4.mjunoon.tv:8087/live/arydigital.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Geo Entertainment (Alt)",Geo Entertainment
+https://cdn4.mjunoon.tv:8087/live/geotv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Express Entertainment",Express Entertainment
+https://cdn4.mjunoon.tv:8087/live/expressent.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="APlus TV",APlus TV
+https://cdn4.mjunoon.tv:8087/live/aplustv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Urdu 1",Urdu 1
+https://cdn4.mjunoon.tv:8087/live/urdu1.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV One",TV One
+https://cdn4.mjunoon.tv:8087/live/tvone.stream/playlist.m3u8
+
+# 🇮🇳 India
+
+#EXTINF:-1 tvg-name="DD News",DD News
+https://dtnlivesh-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8
+
+#EXTINF:-1 tvg-name="DD National",DD National
+https://dtnlivesh-lh.akamaihd.net/i/ddnational_1@409134/master.m3u8
+
+# 🌍 International
+
+#EXTINF:-1 tvg-name="Al Jazeera",Al Jazeera
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-name="France 24",France 24
+https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8
+
+#EXTINF:-1 tvg-name="DW News",DW News
+https://dwamdstream103.akamaized.net/hls/live/2015525/dwstream103/index.m3u8
+
+# 🎬 Movies / Entertainment
+
+#EXTINF:-1 tvg-name="Pluto Movies",Pluto Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748c37b88b269472dad9/master.m3u8
+
+#EXTINF:-1 tvg-name="Pluto TV Action",Pluto TV Action
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce0/master.m3u8
